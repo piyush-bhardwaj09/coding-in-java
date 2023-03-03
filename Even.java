@@ -9,7 +9,7 @@ public class even
         num=input.nextInt();
         if(num%2==0)
 System.out.println("number is even");
-else
+else if(num%3==0)
 System.out.println("number is odd ");
     }
     }
